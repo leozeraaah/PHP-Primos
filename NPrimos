@@ -1,0 +1,18 @@
+<?php
+
+$Numero=$_POST["Numero"];
+
+
+for ($Numero; $Numero >= 100; $Numero++) { 
+
+for ($x = 2; $x < $Numero; $x++) { 
+
+if ($Numero % $x == 0) 
+
+ 
+var_dump($Numero); 
+}
+}
+
+
+?>
